@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.60.3",
-  "build": 154,
-  "tag": "v19-staging-3.60.3-rc.154",
+  "version": "3.66.0",
+  "build": 171,
+  "tag": "v19-staging-3.66.0-rc.171",
   "source": {
-    "flutter_commit": "e136274de2311dbf464abdf3b7c4e427a89480d1",
+    "flutter_commit": "78d133e613c108cff1e2959a7a783017128baae9",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "4e90d0df6f28fc30e0955689bd0d8a2bd8209889"
+    "backend_commit": "a377906e4d6aff91a736fdd0efd573d87f4db74d"
   },
-  "published_at": "2026-08-09T14:50:20Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.60.3-rc.154",
-  "body": "## [3.60.3] - 2026-08-09",
+  "published_at": "2026-08-18T06:51:19Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.66.0-rc.171",
+  "body": "## [3.66.0] - 2026-08-18\n\n### Features\n\n- add safe cross-platform MQTT updater\n- harden MQTT recovery and fleet diagnostics\n- add MQTT device logs and signed remote updates\n- make MQTT recovery and acknowledgements durable\n- add secure MQTT transport for Odoo 19 POS\n- add safe cross-platform MQTT updater\n- harden MQTT recovery and fleet diagnostics\n- add MQTT device logs and signed remote updates\n- make MQTT recovery and acknowledgements durable\n- add secure MQTT transport for Odoo 19 POS\n\n### Bug Fixes\n\n- distinguish salesperson load errors\n- discard pending payment state\n- provide fleet update verification key\n- retry transient Windows updater file locks\n- repair lockfile and accept newer backend patches\n- provide fleet update verification key\n- retry transient Windows updater file locks\n- repair lockfile and accept newer backend patches\n\n### Other Changes\n\n- supply customer filter in order query cases\n- pin integrated staging API\n- Add customer club membership user guide\n- Test club membership database upgrade\n- Add real-time club membership synchronization\n- Add club membership renewal flow\n- Use branch salesperson sales report\n- pin rebased MQTT API for staging\n- keep compatibility checks release agnostic\n- compile native Windows updater fixtures\n- use native Windows updater fixtures\n- normalize MQTT source assertions on Windows\n- terminate Windows updater smoke process tree\n- release Windows updater smoke handles\n- wait for Windows updater smoke processes\n- make Windows rollback evidence deterministic\n- harden hosted updater smoke cleanup\n- validate desktop updater rollback paths\n- Recover MQTT after silent relogin\n- Recover interrupted MQTT commands locally\n- Persist staged MQTT updates across apply commands\n- Harden restored-session MQTT bootstrap\n- Fix MQTT startup for restored POS sessions\n- align compatibility cases with development baseline\n- pin rebased MQTT backend\n- Redact sensitive device logs before upload\n- Handle duplicate POS1 handoff metadata\n- cover live HTTPS fallback\n- compile native Windows updater fixtures\n- use native Windows updater fixtures\n- normalize MQTT source assertions on Windows\n- pin API after development sync\n- pin API after development resync\n- terminate Windows updater smoke process tree\n- release Windows updater smoke handles\n- wait for Windows updater smoke processes\n- make Windows rollback evidence deterministic\n- harden hosted updater smoke cleanup\n- validate desktop updater rollback paths\n- pin validated MQTT API revision\n- pin MQTT backend after development sync\n- Recover MQTT after silent relogin\n- Recover interrupted MQTT commands locally\n- Persist staged MQTT updates across apply commands\n- Harden restored-session MQTT bootstrap\n- Fix MQTT startup for restored POS sessions\n- align compatibility cases with development baseline\n- pin rebased MQTT backend\n- Redact sensitive device logs before upload\n- Handle duplicate POS1 handoff metadata\n- cover live HTTPS fallback",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.60.3-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.60.3-rc.154/flutter-pos-odoo19-3.60.3-windows-x64.zip",
-      "sha256": "c5d37652e8a81d7c4b42f0a92f5f45659038ee4ff0f9ce46d55cee2272dc4a39",
-      "size_bytes": 29875925
+      "name": "flutter-pos-odoo19-3.66.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.66.0-rc.171/flutter-pos-odoo19-3.66.0-windows-x64.zip",
+      "sha256": "ef715190320611dd2bd8df2b23a54ea2fab83f7f7c83343b094a50c66458fdb8",
+      "size_bytes": 29973980
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.60.3-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.60.3-rc.154/flutter-pos-odoo19-3.60.3-linux-x64.tar.gz",
-      "sha256": "bb91a99bb2f407b46b4dbb7d61965edca6bd4382fc87d4a195f6b2176d4f0499",
-      "size_bytes": 36058142
+      "name": "flutter-pos-odoo19-3.66.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.66.0-rc.171/flutter-pos-odoo19-3.66.0-linux-x64.tar.gz",
+      "sha256": "fb1f0e9b22193b1843a880060d7aa9efcd4ed4364351039b2c60b7ce9e2e5c52",
+      "size_bytes": 36158579
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.60.3-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.60.3-rc.154/flutter-pos-odoo19-3.60.3-android-arm64-v8a.apk",
-      "sha256": "ec237b2a0d0d7285a381b33f6444a4e8ca63718dc832ee0650d8a9cfef55a341",
-      "size_bytes": 26127858
+      "name": "flutter-pos-odoo19-3.66.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.66.0-rc.171/flutter-pos-odoo19-3.66.0-android-arm64-v8a.apk",
+      "sha256": "8603696857e6bd301304ec14fb40264ee900dfbf1a0de3fa5c34dae0a1aa407f",
+      "size_bytes": 26240826
     }
   }
 }
