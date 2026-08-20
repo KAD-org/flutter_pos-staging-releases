@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.69.0",
-  "build": 175,
-  "tag": "v19-staging-3.69.0-rc.175",
+  "version": "3.70.0",
+  "build": 176,
+  "tag": "v19-staging-3.70.0-rc.176",
   "source": {
-    "flutter_commit": "3626abe829ae9ad72ebd52de152d2e3a6ac08f7d",
+    "flutter_commit": "5c508103cb6a9b2863ef6b058528e552acb34c17",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "eab73e89a003488e3371b0ff1c7f42222d0ec153"
+    "backend_commit": "4b795ed7ade2cf20c61ae89c07a9b7a2bf611220"
   },
-  "published_at": "2026-08-20T09:16:50Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.69.0-rc.175",
-  "body": "## [3.69.0] - 2026-08-20\n\n### Features\n\n- add POS customer self-registration\n\n### Other Changes\n\n- pin customer self-registration backend",
+  "published_at": "2026-08-20T11:08:10Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.70.0-rc.176",
+  "body": "## [3.70.0] - 2026-08-20\n\n### Features\n\n- localize referral flow and document registration forms\n\n### Other Changes\n\n- pin configurable customer registration backend",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.69.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.69.0-rc.175/flutter-pos-odoo19-3.69.0-windows-x64.zip",
-      "sha256": "ba6e712486fb81699cb69d1fd2dc9c604a5182dae66179b0dc4b6603f2afeec0",
-      "size_bytes": 30017256
+      "name": "flutter-pos-odoo19-3.70.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.70.0-rc.176/flutter-pos-odoo19-3.70.0-windows-x64.zip",
+      "sha256": "e3ba5b5ea20161a4dbbee3aedeaa0f7f697b5b5157e7524981bc3e6618f8a92e",
+      "size_bytes": 30016769
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.69.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.69.0-rc.175/flutter-pos-odoo19-3.69.0-linux-x64.tar.gz",
-      "sha256": "ff678809562c84f83fb1a98776b6700856ec99a86f2390837c873e258d2901f7",
-      "size_bytes": 36192807
+      "name": "flutter-pos-odoo19-3.70.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.70.0-rc.176/flutter-pos-odoo19-3.70.0-linux-x64.tar.gz",
+      "sha256": "154300a2df58b736f9b98fbd7a4044ea2cc5302935dc59ea46d135c5da4f6a72",
+      "size_bytes": 36190922
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.69.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.69.0-rc.175/flutter-pos-odoo19-3.69.0-android-arm64-v8a.apk",
-      "sha256": "c89237b4290442dcc0ff5b0aae6eb7ea52a96f9f343632e51e39a492c4bb22d7",
-      "size_bytes": 26278766
+      "name": "flutter-pos-odoo19-3.70.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.70.0-rc.176/flutter-pos-odoo19-3.70.0-android-arm64-v8a.apk",
+      "sha256": "2e17140f618b98602d4478b96f6bb9e0c22c4ec95f0371ea025282558c49beb6",
+      "size_bytes": 26279120
     }
   }
 }
