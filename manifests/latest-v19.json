@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.70.0",
-  "build": 176,
-  "tag": "v19-staging-3.70.0-rc.176",
+  "version": "3.71.0",
+  "build": 177,
+  "tag": "v19-staging-3.71.0-rc.177",
   "source": {
-    "flutter_commit": "5c508103cb6a9b2863ef6b058528e552acb34c17",
+    "flutter_commit": "f2a52e750da654c062d5c45a1712727c10ca1dc8",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "4b795ed7ade2cf20c61ae89c07a9b7a2bf611220"
+    "backend_commit": "f82d93cb8f365fdfc78279b126916d1f0ed4b1fa"
   },
-  "published_at": "2026-08-20T11:08:10Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.70.0-rc.176",
-  "body": "## [3.70.0] - 2026-08-20\n\n### Features\n\n- localize referral flow and document registration forms\n\n### Other Changes\n\n- pin configurable customer registration backend",
+  "published_at": "2026-08-25T13:55:49Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.71.0-rc.177",
+  "body": "## [3.71.0] - 2026-08-25\n\n### Features\n\n- improve POS sales and customer workflows\n\n### Bug Fixes\n\n- guard direct cart deletions\n- preserve normalized search and discount guards\n- close kiosk and search race gaps\n- guard coupon removal mutations\n- preserve normalized checkout identities\n- close remaining checkout review gaps\n- report voucher copy print failures\n- preserve paytag reconciliation integrity\n- propagate deferred cart rejections\n- revalidate kiosk payment assignment\n- keep kiosk removals atomic\n- propagate guarded cart rejections\n- make guarded cart workflows atomic\n- match voucher copies to exact order\n- guard promotion state mutations\n- abort rejected gift card activations\n- normalize restored refund exchanges\n- keep desktop payment recovery accessible\n- preserve fixed employee payment recovery\n- preserve cart mode on refund add failure\n- guard fixed employee repricing\n- refresh fixed employee enforcement\n- guard fixed employee phone tenders\n- close remaining guarded selection paths\n- reveal selected online orders\n- guard custom cart discount lines\n- guard deleted-line restoration\n- guard fixed-employee line discounts\n- preserve guarded fuel and refund mutations\n- guard fixed-employee line edits\n- preserve refund salesperson during mutations\n- preserve refund attribution and pricing accuracy\n- close remaining POS workflow review gaps\n- separate gross document discount display\n- address discount sync review feedback\n- scope document counter recovery by POS sequence\n- recover repeated POS receipt numbers\n- address POS workflow review findings\n- harden workflow settings and receipt status layout\n- sync weighted discount totals consistently\n- align wallet payment amount rounding\n- preserve multipass swipe card codes\n- preserve multipass swipe card codes\n- coalesce PayTag reconciliation\n- await loyalty data for PayTag checks\n- harden gift card voucher restrictions\n- gift-card/voucher cross-payment block matched product names, not real gift-card products\n- preserve manual discount sync marker\n- address refund discount review comments\n- limit image cookies to Odoo origin\n- refresh cached logo slots\n\n### Other Changes\n\n- update voucher history service fake\n- harden POS workflow regressions\n- Fix legacy loyalty refund note matching\n- Fix stale test API usage\n- Fix auth error name cast\n- Fix cash rounding split payment settlement\n- Fix scanned order online lookup\n- validate odoo19 development pull requests\n- Do not allocate unmarked voucher adjustments on refund\n- Fix refund discount line classification\n- Handle legacy refund net adjustments\n- Fix refund discount adjustment classification\n- Use Dart customer display view on Android",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.70.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.70.0-rc.176/flutter-pos-odoo19-3.70.0-windows-x64.zip",
-      "sha256": "e3ba5b5ea20161a4dbbee3aedeaa0f7f697b5b5157e7524981bc3e6618f8a92e",
-      "size_bytes": 30016769
+      "name": "flutter-pos-odoo19-3.71.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.71.0-rc.177/flutter-pos-odoo19-3.71.0-windows-x64.zip",
+      "sha256": "374c8ce9d25d3e427ce911c778b65e15d74d63455bd6cbd3882a2af62c10f8ea",
+      "size_bytes": 30112322
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.70.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.70.0-rc.176/flutter-pos-odoo19-3.70.0-linux-x64.tar.gz",
-      "sha256": "154300a2df58b736f9b98fbd7a4044ea2cc5302935dc59ea46d135c5da4f6a72",
-      "size_bytes": 36190922
+      "name": "flutter-pos-odoo19-3.71.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.71.0-rc.177/flutter-pos-odoo19-3.71.0-linux-x64.tar.gz",
+      "sha256": "002653833312623c3f3ac4605a947d1f6fc412a8698123751e1387195f026542",
+      "size_bytes": 36288415
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.70.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.70.0-rc.176/flutter-pos-odoo19-3.70.0-android-arm64-v8a.apk",
-      "sha256": "2e17140f618b98602d4478b96f6bb9e0c22c4ec95f0371ea025282558c49beb6",
-      "size_bytes": 26279120
+      "name": "flutter-pos-odoo19-3.71.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.71.0-rc.177/flutter-pos-odoo19-3.71.0-android-arm64-v8a.apk",
+      "sha256": "cc08fa2a7401594eb3c4caa365d6395c0f463b67f351997737c8ae00f2729560",
+      "size_bytes": 26357056
     }
   }
 }
