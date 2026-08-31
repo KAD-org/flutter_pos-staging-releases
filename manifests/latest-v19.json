@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.72.2",
-  "build": 181,
-  "tag": "v19-staging-3.72.2-rc.181",
+  "version": "3.73.0",
+  "build": 182,
+  "tag": "v19-staging-3.73.0-rc.182",
   "source": {
-    "flutter_commit": "01d7cf3d07fb2196b91612a5266c8d0316a093f9",
+    "flutter_commit": "f18e6fbb70e50b04f7bae240065c4d9f78ae5dcb",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "deb15cd062fb560bc31172d3687676095962ddcf"
+    "backend_commit": "aed3fcc575d68e98b2e215063fbc22c423d44948"
   },
-  "published_at": "2026-08-30T08:45:29Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.72.2-rc.181",
-  "body": "## [3.72.2] - 2026-08-30\n\n### Bug Fixes\n\n- bootstrap MQTT from diagnostics reconnect",
+  "published_at": "2026-08-31T11:55:48Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.73.0-rc.182",
+  "body": "## [3.73.0] - 2026-08-31\n\n### Features\n\n- integrate Hashavshevet cash and SHVA flows\n\n### Bug Fixes\n\n- harden SHVA broadcasts and terminal logging\n- keep cash actions on live POS context",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.72.2-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.72.2-rc.181/flutter-pos-odoo19-3.72.2-windows-x64.zip",
-      "sha256": "b458c2bb52afad18a76a640ce0afcee5334d43677952cf5e8ac6affce1edf29f",
-      "size_bytes": 30078943
+      "name": "flutter-pos-odoo19-3.73.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.73.0-rc.182/flutter-pos-odoo19-3.73.0-windows-x64.zip",
+      "sha256": "3988ceaca4abfa763ef240a99c9fc51dd417032b07263ddbc5387d630010c9b1",
+      "size_bytes": 30086500
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.72.2-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.72.2-rc.181/flutter-pos-odoo19-3.72.2-linux-x64.tar.gz",
-      "sha256": "261882547e2f3699a746c1bdd0ff2a7453de829c5e47d9594af37a901c95940b",
-      "size_bytes": 36255679
+      "name": "flutter-pos-odoo19-3.73.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.73.0-rc.182/flutter-pos-odoo19-3.73.0-linux-x64.tar.gz",
+      "sha256": "cf79da696d00dd442f3fe39210331196bf3a8804c616b4d6bdd3416bd36afd16",
+      "size_bytes": 36259631
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.72.2-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.72.2-rc.181/flutter-pos-odoo19-3.72.2-android-arm64-v8a.apk",
-      "sha256": "1001b4fcdd708147f455873773e6f98aa63527a37439e74230b52dff0fe4aee0",
-      "size_bytes": 26333925
+      "name": "flutter-pos-odoo19-3.73.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.73.0-rc.182/flutter-pos-odoo19-3.73.0-android-arm64-v8a.apk",
+      "sha256": "a481bd2b22ec7d46760db95990c2bc2383a98434fba83fe578dd91770e610690",
+      "size_bytes": 26342456
     }
   }
 }
