@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.73.1",
-  "build": 183,
-  "tag": "v19-staging-3.73.1-rc.183",
+  "version": "3.74.0",
+  "build": 186,
+  "tag": "v19-staging-3.74.0-rc.186",
   "source": {
-    "flutter_commit": "6d405ca843b4ebb8d567105e2f0256b654045997",
+    "flutter_commit": "cc7213b30166223b9ea35a9317e657f48c6c6338",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "532b556e17bd514b5b56c75acaf83b2e48ed357f"
+    "backend_commit": "6a0eb7cdde00a61dea6c988189d05794438010af"
   },
-  "published_at": "2026-09-01T09:02:32Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.73.1-rc.183",
-  "body": "## [3.73.1] - 2026-09-01\n\n### Bug Fixes\n\n- publish universal Android updater APK\n- tighten Android update asset selection\n- sign Android release APKs with stable key\n- select compatible Android update APK\n\n### Other Changes\n\n- Fix zero-total grocery checkout draft cleanup",
+  "published_at": "2026-09-02T12:05:33Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.74.0-rc.186",
+  "body": "## [3.74.0] - 2026-09-02\n\n### Features\n\n- integrate Hashavshevet cash and SHVA flows\n- localize referral flow and document registration forms\n- add POS customer self-registration\n- edit customer internal notes\n- add referral partner checkout flow\n- add safe cross-platform MQTT updater\n- harden MQTT recovery and fleet diagnostics\n- add MQTT device logs and signed remote updates\n- make MQTT recovery and acknowledgements durable\n- add secure MQTT transport for Odoo 19 POS\n- add safe cross-platform MQTT updater\n- harden MQTT recovery and fleet diagnostics\n- add MQTT device logs and signed remote updates\n- make MQTT recovery and acknowledgements durable\n- add secure MQTT transport for Odoo 19 POS\n\n### Bug Fixes\n\n- harden SHVA broadcasts and terminal logging\n- keep cash actions on live POS context\n- bootstrap MQTT from diagnostics reconnect\n- require referral confirmation before payment\n- repair merged auth session handling\n- provide fleet update verification key\n- retry transient Windows updater file locks\n- repair lockfile and accept newer backend patches\n- provide fleet update verification key\n- retry transient Windows updater file locks\n- repair lockfile and accept newer backend patches\n\n### Other Changes\n\n- pin staging API partnership dependency\n- pin configurable customer registration backend\n- pin customer self-registration backend\n- align auth fakes with relogin outcomes\n- pin synchronized staging API\n- supply customer filter in order query cases\n- pin integrated staging API\n- Add customer club membership user guide\n- Test club membership database upgrade\n- Add real-time club membership synchronization\n- Add club membership renewal flow\n- pin rebased MQTT API for staging\n- keep compatibility checks release agnostic\n- compile native Windows updater fixtures\n- use native Windows updater fixtures\n- normalize MQTT source assertions on Windows\n- terminate Windows updater smoke process tree\n- release Windows updater smoke handles\n- wait for Windows updater smoke processes\n- make Windows rollback evidence deterministic\n- harden hosted updater smoke cleanup\n- validate desktop updater rollback paths\n- Recover MQTT after silent relogin\n- Recover interrupted MQTT commands locally\n- Persist staged MQTT updates across apply commands\n- Harden restored-session MQTT bootstrap\n- Fix MQTT startup for restored POS sessions\n- align compatibility cases with development baseline\n- pin rebased MQTT backend\n- Redact sensitive device logs before upload\n- Handle duplicate POS1 handoff metadata\n- cover live HTTPS fallback\n- compile native Windows updater fixtures\n- use native Windows updater fixtures\n- normalize MQTT source assertions on Windows\n- pin API after development sync\n- pin API after development resync\n- terminate Windows updater smoke process tree\n- release Windows updater smoke handles\n- wait for Windows updater smoke processes\n- make Windows rollback evidence deterministic\n- harden hosted updater smoke cleanup\n- validate desktop updater rollback paths\n- pin validated MQTT API revision\n- pin MQTT backend after development sync\n- Recover MQTT after silent relogin\n- Recover interrupted MQTT commands locally\n- Persist staged MQTT updates across apply commands\n- Harden restored-session MQTT bootstrap\n- Fix MQTT startup for restored POS sessions\n- align compatibility cases with development baseline\n- pin rebased MQTT backend\n- Redact sensitive device logs before upload\n- Handle duplicate POS1 handoff metadata\n- cover live HTTPS fallback",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.73.1-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.73.1-rc.183/flutter-pos-odoo19-3.73.1-windows-x64.zip",
-      "sha256": "9d38266d028098f63363095e03dd81d4bb28529c13a992615044a78e750b20bc",
-      "size_bytes": 30089738
+      "name": "flutter-pos-odoo19-3.74.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.74.0-rc.186/flutter-pos-odoo19-3.74.0-windows-x64.zip",
+      "sha256": "97dbc3548bad53f45b893e301272b424d9cf8385e49da71b3f2c9202cd3aef1e",
+      "size_bytes": 30155923
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.73.1-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.73.1-rc.183/flutter-pos-odoo19-3.73.1-linux-x64.tar.gz",
-      "sha256": "1cede7ae8a6e18f4b543823cf795b261f0c0b5ef26c417573f7fe194e55b8c10",
-      "size_bytes": 36262557
+      "name": "flutter-pos-odoo19-3.74.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.74.0-rc.186/flutter-pos-odoo19-3.74.0-linux-x64.tar.gz",
+      "sha256": "12f37c8317f2d5a0521d8bf9df9eabcea65f7a96913bea47afe87f4d2c522ea1",
+      "size_bytes": 36318967
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.73.1-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.73.1-rc.183/flutter-pos-odoo19-3.73.1-android.apk",
-      "sha256": "e8873e802e194be9e6b6959588186b26800a00433937a514168f33359f0fe1a3",
-      "size_bytes": 57976210
+      "name": "flutter-pos-odoo19-3.74.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.74.0-rc.186/flutter-pos-odoo19-3.74.0-android.apk",
+      "sha256": "dbf476769b5cbb64a89767fb94694b973ad6f61c3786b06459a43ae6bf7fc141",
+      "size_bytes": 58145251
     }
   }
 }
