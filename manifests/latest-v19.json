@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.75.0",
-  "build": 187,
-  "tag": "v19-staging-3.75.0-rc.187",
+  "version": "3.75.1",
+  "build": 188,
+  "tag": "v19-staging-3.75.1-rc.188",
   "source": {
-    "flutter_commit": "ce4dcd7d4457ccc9e4f593d2fb763495dde79ee7",
+    "flutter_commit": "4e55cbe4d9623083d270ec5b6e4cb09c62cf8fed",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "94cf18b3a4f7fe58f79071622b7458784d34d7c9"
+    "backend_commit": "33c7075dde2b6b79fa6fc5a61d4a87e402c062d5"
   },
-  "published_at": "2026-09-02T14:17:57Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.75.0-rc.187",
-  "body": "## [3.75.0] - 2026-09-02\n\n### Features\n\n- refresh pricing and taxes\n- apply targeted catalog refreshes",
+  "published_at": "2026-09-03T11:25:10Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.75.1-rc.188",
+  "body": "## [3.75.1] - 2026-09-03\n\n### Bug Fixes\n\n- preserve loyalty promotions on held orders",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.75.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.75.0-rc.187/flutter-pos-odoo19-3.75.0-windows-x64.zip",
-      "sha256": "14099ca609070e43a1dbd7be411eba90d612225feb8ac5ef784a26062cd6aaa3",
-      "size_bytes": 30154418
+      "name": "flutter-pos-odoo19-3.75.1-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.75.1-rc.188/flutter-pos-odoo19-3.75.1-windows-x64.zip",
+      "sha256": "552f8df196e5b4f3b7a5ceea8885f84fe6ff23669cdc35b37792b896ee3d8e75",
+      "size_bytes": 30156127
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.75.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.75.0-rc.187/flutter-pos-odoo19-3.75.0-linux-x64.tar.gz",
-      "sha256": "75043656896c86e7250e2f66e7590305a20cea34ffb3d380cd0559feba2f665d",
-      "size_bytes": 36317027
+      "name": "flutter-pos-odoo19-3.75.1-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.75.1-rc.188/flutter-pos-odoo19-3.75.1-linux-x64.tar.gz",
+      "sha256": "cabad163bdfa69129ea6374074442023506c4db7741efc667eb11f1584cbddf7",
+      "size_bytes": 36321772
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.75.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.75.0-rc.187/flutter-pos-odoo19-3.75.0-android.apk",
-      "sha256": "e48a0acf8cd7dfbc1b9f1005d4610b647b3de8d4f6c334f5a6794e5d5f182ad8",
-      "size_bytes": 58158284
+      "name": "flutter-pos-odoo19-3.75.1-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.75.1-rc.188/flutter-pos-odoo19-3.75.1-android.apk",
+      "sha256": "fae69b49c582099c734579412f4692f5261f4dec99a254b12f6c86cd6490be26",
+      "size_bytes": 58163721
     }
   }
 }
