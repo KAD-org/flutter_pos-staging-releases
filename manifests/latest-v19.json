@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.75.2",
-  "build": 189,
-  "tag": "v19-staging-3.75.2-rc.189",
+  "version": "3.76.0",
+  "build": 191,
+  "tag": "v19-staging-3.76.0-rc.191",
   "source": {
-    "flutter_commit": "3fa9c897df55c96747e653b2ad9b9d17427d3b0f",
+    "flutter_commit": "82e8b58120b335e98d9abf29fa8f34b74db98ed3",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "e5cfd6ddecbd545b45139b9e748aa8bf2096c164"
+    "backend_commit": "6abda9b164fbd6a7eec959073eccab34f4e797de"
   },
-  "published_at": "2026-09-03T12:54:04Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.75.2-rc.189",
-  "body": "## [3.75.2] - 2026-09-03\n\n### Bug Fixes\n\n- guard targeted catalog refreshes",
+  "published_at": "2026-09-03T14:32:26Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.76.0-rc.191",
+  "body": "## [3.76.0] - 2026-09-03\n\n### Features\n\n- prompt for membership until payment\n\n### Other Changes\n\n- remove trailing whitespace",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.75.2-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.75.2-rc.189/flutter-pos-odoo19-3.75.2-windows-x64.zip",
-      "sha256": "658281183c2e31c19a779f017354518e892ef5b64936e101b9eed4c63a4a467e",
-      "size_bytes": 30156935
+      "name": "flutter-pos-odoo19-3.76.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.76.0-rc.191/flutter-pos-odoo19-3.76.0-windows-x64.zip",
+      "sha256": "878557ef024745c5259ecedcbdda1fef96dbf791aa5c09723e3a49b8e5140149",
+      "size_bytes": 30160568
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.75.2-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.75.2-rc.189/flutter-pos-odoo19-3.75.2-linux-x64.tar.gz",
-      "sha256": "d122984b56f84247dd6e60dfcff0b722a5b00b10864dd2051f29eb1072602507",
-      "size_bytes": 36324475
+      "name": "flutter-pos-odoo19-3.76.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.76.0-rc.191/flutter-pos-odoo19-3.76.0-linux-x64.tar.gz",
+      "sha256": "974b06690dfa91ddbd31e4ab6f6df51eabe3c789e3985262bf58fb61ee47368c",
+      "size_bytes": 36328056
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.75.2-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.75.2-rc.189/flutter-pos-odoo19-3.75.2-android.apk",
-      "sha256": "f5b9a5c55ee14d661b71a8479882f9cee773dfdea32149e892e6f7569f696cd4",
-      "size_bytes": 58176504
+      "name": "flutter-pos-odoo19-3.76.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.76.0-rc.191/flutter-pos-odoo19-3.76.0-android.apk",
+      "sha256": "1759bebbadc73baef3a1ad992448d3c5b9f052cc4d5899a5f3cec4af4426e61c",
+      "size_bytes": 58181870
     }
   }
 }
