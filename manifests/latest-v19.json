@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.77.6",
-  "build": 201,
-  "tag": "v19-staging-3.77.6-rc.201",
+  "version": "3.77.7",
+  "build": 202,
+  "tag": "v19-staging-3.77.7-rc.202",
   "source": {
-    "flutter_commit": "f243d0af7b60976c53cfb0374f99405705f32b0a",
+    "flutter_commit": "afe50aa9a452e3bc74a1df4be6856630f115c1d2",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "8f77175eee5953fb8d15bded95f3456561e69832"
+    "backend_commit": "5a26cf0aec49ab099585e91170b2fc06cc3ac1f9"
   },
-  "published_at": "2026-09-09T16:28:11Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.77.6-rc.201",
-  "body": "## [3.77.6] - 2026-09-09\n\n### Bug Fixes\n\n- preserve realtime refresh ownership",
+  "published_at": "2026-09-09T16:52:23Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.77.7-rc.202",
+  "body": "## [3.77.7] - 2026-09-09\n\n### Bug Fixes\n\n- harden update and command handoff",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.77.6-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.6-rc.201/flutter-pos-odoo19-3.77.6-windows-x64.zip",
-      "sha256": "17c50c025f880597262877d82b4db0be4ec62cfc0b8c78c83d773d72e38e9095",
-      "size_bytes": 30429779
+      "name": "flutter-pos-odoo19-3.77.7-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.7-rc.202/flutter-pos-odoo19-3.77.7-windows-x64.zip",
+      "sha256": "4ac515e71606e04e744e1476aa39eee00e2f266926dbf57431a4b6335b696090",
+      "size_bytes": 30428583
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.77.6-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.6-rc.201/flutter-pos-odoo19-3.77.6-linux-x64.tar.gz",
-      "sha256": "00dd4bb94c730eaab16039e85de2797191d4e0e5e165bf019d35bff8a021601f",
-      "size_bytes": 36587435
+      "name": "flutter-pos-odoo19-3.77.7-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.7-rc.202/flutter-pos-odoo19-3.77.7-linux-x64.tar.gz",
+      "sha256": "0e14960ab35771f5054094dc6555d0d1a52e04c5ad704ec72e70851df5804066",
+      "size_bytes": 36592296
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.77.6-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.6-rc.201/flutter-pos-odoo19-3.77.6-android.apk",
-      "sha256": "719563cc57e0e08466cb6cc6994498342f48f5ef5f3ba2a0ea4b30a506ede6d4",
-      "size_bytes": 58903430
+      "name": "flutter-pos-odoo19-3.77.7-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.7-rc.202/flutter-pos-odoo19-3.77.7-android.apk",
+      "sha256": "ee994fa1cb6dc932eb9be41f1dc66b2cb550362ea437916d05b29ff2f94ae80d",
+      "size_bytes": 58905924
     }
   }
 }
