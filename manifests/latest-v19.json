@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.77.0",
-  "build": 195,
-  "tag": "v19-staging-3.77.0-rc.195",
+  "version": "3.77.2",
+  "build": 197,
+  "tag": "v19-staging-3.77.2-rc.197",
   "source": {
-    "flutter_commit": "d4fc56faddc651b6980b11c2c8b0c899bd706826",
+    "flutter_commit": "b27a9a42290cc1ebf8b1be22bdb8905fae992f0c",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "b43e0921abed968f34de47b55905f13da3f2a341"
+    "backend_commit": "2582181c246e6db05f82e76326bf75eb6588f2b4"
   },
-  "published_at": "2026-09-09T12:13:27Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.77.0-rc.195",
-  "body": "## [3.77.0] - 2026-09-09\n\n### Features\n\n- update branch sales ranking dialog to remove compact view and adjust scope provider\n- block manual cart quantity changes for ticket 371\n- implement sales ranking view options and localization support\n- add regional sales ranking feature with localization support\n- update automatic close logic to submit zero ending cash for each currency\n- enhance automatic session close logic to handle suspended and active orders\n- add automatic session close settings and related functionality\n- toggle refresh catalog popup\n- implement automatic session close feature with configurable time\n- implement durable order handling and enhance Tigapo purchase processing\n- complete combined Multipass Tigapo workflow\n- Implement combined Multipass and Tigapo workflow\n- Implement combined Multipass and Tigapo workflow\n- persist catalog order presets\n\n### Bug Fixes\n\n- guard async cart updates\n- hide restricted quantity controls across remaining screens\n- preserve Multipass quantities with manual edits blocked\n- import ProductSortMode in catalog order dialog\n- select catalog preset inline\n- defer catalog preset enter submission\n- clarify balance validation\n- simplify Tigapo signup and FX display\n- point to cleaned Russian API changes\n- point to referral upgrade compatibility fix\n- point to partner upgrade compatibility fix\n- point to API upgrade compatibility fix\n- translate new Russian POS strings\n- support CI Flutter dropdown API\n- capture tigapo transaction ID in checkout and sync processes\n- make combined compensation cleanup atomic\n- harden combined payment recovery and reporting\n- keep benefit-only restoration at zero\n- harden combined refund edge cases\n- complete combined Multipass sale and refund flow\n- make combined refunds and undo provider-safe\n- require combined capture before ordinary tender\n- restore combined benefit without refund amount\n- tighten combined benefit sale and refund identity\n- guard combined flow across layouts\n- guard combined refund cleanup\n- localize Tigapo card dialogs\n- harden combined Tigapo benefit flow\n- cancel combined refund pairs atomically\n- preserve captured combined recovery amounts\n- harden captured combined workflow state\n- close combined settlement recovery gaps\n- fail closed for combined order recovery\n- preserve combined workflow recovery data\n- close combined workflow review gaps\n- persist combined provider recovery states\n- close combined workflow lifecycle gaps\n- enforce combined benefit pair invariants\n- fail safely around combined provider reporting\n- await catalog before inline reorder\n- scope catalog ownership by account\n- address combined Multipass Tigapo review findings\n- retain hidden product order slots\n- clear catalog state across accounts\n- await catalog state before dialog snapshot\n- recover from catalog discard failure\n- restore product sort on reorder discard\n- complete category grid and legacy ownership\n- align complete category reorder baseline\n- align complete custom reorder scope\n- support catalog reorder in list view\n- discard unsaved catalog dialog edits\n- persist stable variant group order\n- bind queued catalog writes to POS\n- snapshot catalog only when reordering\n- harden combined Multipass Tigapo workflow\n- harden catalog reorder persistence\n- snapshot each catalog reorder session\n- preserve all-products reorder scope\n- include descendants in catalog dialog\n- finalize catalog preset before layout save\n- resync restored catalog on discard\n- apply remote catalog atomically\n- retain descendant product reorder\n- synchronize catalog order safely\n- preserve catalog reorder state\n\n### Other Changes\n\n- Keep settings push behind successful fetch\n- Revert \"Merge pull request #367 from KAD-org/codex/aion-178-catalog-order-presets-v2\"\n- Fix customer selector sync page import\n- Use large compressed POS sync requests\n- Revert \"Allow multiple Windows app instances\"\n- update Tigapo backend revision\n- Allow multiple Windows app instances\n- Complete Russian settings and custom button support\n- Complete Russian POS localization\n- Add product sort default and Russian POS language\n- update checkout test override\n- sync combined workflow backend version",
+  "published_at": "2026-09-09T14:17:58Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.77.2-rc.197",
+  "body": "## [3.77.2] - 2026-09-09\n\n### Bug Fixes\n\n- retain loyalty provider for desktop panel",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.77.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.0-rc.195/flutter-pos-odoo19-3.77.0-windows-x64.zip",
-      "sha256": "80f8e1441ca8549fd2a26bcae0ec0b8ca167c44fe29bccfff27fc5bc2def1973",
-      "size_bytes": 30422561
+      "name": "flutter-pos-odoo19-3.77.2-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.2-rc.197/flutter-pos-odoo19-3.77.2-windows-x64.zip",
+      "sha256": "bf7e5c127eb9af3a140f90ac4f94e2268a2de80d30279851c89328ada4289c76",
+      "size_bytes": 30421338
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.77.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.0-rc.195/flutter-pos-odoo19-3.77.0-linux-x64.tar.gz",
-      "sha256": "e3d06888ce103df2de9f8f86975747166e25f5465a88f1d153765122903d0b78",
-      "size_bytes": 36584807
+      "name": "flutter-pos-odoo19-3.77.2-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.2-rc.197/flutter-pos-odoo19-3.77.2-linux-x64.tar.gz",
+      "sha256": "d6e84c3914a6074eb405d1242dd8d28aa281fbdbc9e108d7891d3400f1f5fb66",
+      "size_bytes": 36579945
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.77.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.0-rc.195/flutter-pos-odoo19-3.77.0-android.apk",
-      "sha256": "a2b7dcdef98f85167832a88c9e6dfb13e13514467cc050c6e60076e252a75e10",
-      "size_bytes": 58883175
+      "name": "flutter-pos-odoo19-3.77.2-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.2-rc.197/flutter-pos-odoo19-3.77.2-android.apk",
+      "sha256": "28832cdc57eeef34c8316e21eee7e129c6e6071ea4327b0c20f6e6491f03eb63",
+      "size_bytes": 58884350
     }
   }
 }
