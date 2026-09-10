@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.77.8",
-  "build": 203,
-  "tag": "v19-staging-3.77.8-rc.203",
+  "version": "3.77.9",
+  "build": 204,
+  "tag": "v19-staging-3.77.9-rc.204",
   "source": {
-    "flutter_commit": "3899114fd8d1c263cdbe862be08770b27b397acd",
+    "flutter_commit": "9b5f0289ecf71bfa7eb6ee48cb7eaed2c17e9918",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "5eb32c5c71459b0c389ec2f1110baedfd09845b0"
+    "backend_commit": "81b53d07fac0a63be6428f5989cbcb9a4827a98e"
   },
-  "published_at": "2026-09-10T07:00:23Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.77.8-rc.203",
-  "body": "## [3.77.8] - 2026-09-10\n\n### Bug Fixes\n\n- scope mqtt recovery across reconnects",
+  "published_at": "2026-09-10T07:23:39Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.77.9-rc.204",
+  "body": "## [3.77.9] - 2026-09-10\n\n### Bug Fixes\n\n- preserve customer cache across refresh failures",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.77.8-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.8-rc.203/flutter-pos-odoo19-3.77.8-windows-x64.zip",
-      "sha256": "15874d0dfaa642284e0cb2078c84c5ea7bfec3d6464c5f6b2e8a9fd40ee6cee9",
-      "size_bytes": 30431945
+      "name": "flutter-pos-odoo19-3.77.9-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.9-rc.204/flutter-pos-odoo19-3.77.9-windows-x64.zip",
+      "sha256": "221d725a38989721075c33748f213c35fc21df8262e68ddbd15d8746b30a4891",
+      "size_bytes": 30429083
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.77.8-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.8-rc.203/flutter-pos-odoo19-3.77.8-linux-x64.tar.gz",
-      "sha256": "abd6e886c7e809ac3cb908a917e828cfe3964fa44c9d040634e4409c188aaf8e",
-      "size_bytes": 36591712
+      "name": "flutter-pos-odoo19-3.77.9-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.9-rc.204/flutter-pos-odoo19-3.77.9-linux-x64.tar.gz",
+      "sha256": "ea4dd352efb12a35208a7978f0417b119e20f6462fc6486417af485f6cc993c7",
+      "size_bytes": 36587563
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.77.8-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.8-rc.203/flutter-pos-odoo19-3.77.8-android.apk",
-      "sha256": "0f9570ba2007c73264d5740804727ac84f7b69695ec3933bef52e5288caf5cd3",
-      "size_bytes": 58910703
+      "name": "flutter-pos-odoo19-3.77.9-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.77.9-rc.204/flutter-pos-odoo19-3.77.9-android.apk",
+      "sha256": "1958ed04e236e4d759a9866d147bd515f71f254ca4c67446700fe3b79a2d35e2",
+      "size_bytes": 58909586
     }
   }
 }
