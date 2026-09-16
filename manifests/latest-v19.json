@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "staging",
   "odoo_major": 19,
-  "version": "3.79.0",
-  "build": 208,
-  "tag": "v19-staging-3.79.0-rc.208",
+  "version": "3.79.6",
+  "build": 211,
+  "tag": "v19-staging-3.79.6-rc.211",
   "source": {
-    "flutter_commit": "fc2c59e4484fcf64e4593bb342a68a021e9b96bd",
+    "flutter_commit": "5d42a728da0eefb5b0d9e1ae0a5de974f07b4b81",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/staging",
-    "backend_commit": "6950bb28f612f8617d32341cb81c0892b196b494"
+    "backend_commit": "5bbc43cde548f949450154a2c97e073fc86ef869"
   },
-  "published_at": "2026-09-15T14:14:04Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.79.0-rc.208",
-  "body": "## [3.79.0] - 2026-09-15\n\n### Features\n\n- Enhance promotion handling in receipt processing",
+  "published_at": "2026-09-16T15:03:10Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/tag/v19-staging-3.79.6-rc.211",
+  "body": "## [3.79.6] - 2026-09-16\n\n### Bug Fixes\n\n- use scoped token for release pull requests (#424)\n- release staging through protected pull requests (#423)\n- adjust transaction type based on amount for Nayax payment service\n- prefer saved unit allocations over RFID averages\n- preserve cents and return unbundled units first\n- preserve saved promotion allocations on partial returns\n- align client with promotion breakdown backend",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.79.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.79.0-rc.208/flutter-pos-odoo19-3.79.0-windows-x64.zip",
-      "sha256": "c264a8a5e79853bd3083a79f0e6e5f09c618fe763acf1648944b2fd88357ab9f",
-      "size_bytes": 30453477
+      "name": "flutter-pos-odoo19-3.79.6-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.79.6-rc.211/flutter-pos-odoo19-3.79.6-windows-x64.zip",
+      "sha256": "f1762bd548fe0b2b11cfa4e36ab58dd334f1936d71d6f4076dfbae054964ae95",
+      "size_bytes": 30460985
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.79.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.79.0-rc.208/flutter-pos-odoo19-3.79.0-linux-x64.tar.gz",
-      "sha256": "33023f603fa4fd530ffee0adfaa8dd4588115e4482ddeccd4305815edb20a247",
-      "size_bytes": 36608484
+      "name": "flutter-pos-odoo19-3.79.6-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.79.6-rc.211/flutter-pos-odoo19-3.79.6-linux-x64.tar.gz",
+      "sha256": "b15de486d2221cad668d67623c8dfc6a72d6f33105b660cdbd37dcb31d3e5c54",
+      "size_bytes": 36616471
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.79.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.79.0-rc.208/flutter-pos-odoo19-3.79.0-android.apk",
-      "sha256": "133af0bdfbd95e8c1e57f13ac57e3c1e22b55ab2f155e5cdfca00abc1b7b9ffa",
-      "size_bytes": 58968789
+      "name": "flutter-pos-odoo19-3.79.6-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-staging-releases/releases/download/v19-staging-3.79.6-rc.211/flutter-pos-odoo19-3.79.6-android.apk",
+      "sha256": "2b53772ba74554bc282f01c87846210c10d4adf4a96e42d1c718a51e254cff06",
+      "size_bytes": 58998512
     }
   }
 }
